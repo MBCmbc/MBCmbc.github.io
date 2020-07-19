@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Bingchuan Ma的博客</title>
+  <title>Mbc的博客</title>
   
   <subtitle>求实求真 大气大为</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://mbcmbc.github.io/</id>
   
   <author>
-    <name>Bingchuan Ma</name>
+    <name>Mbc</name>
     
   </author>
   
