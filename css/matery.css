@@ -111,8 +111,17 @@ blockquote {
     tab-size: 4;
 }
 
-pre {
-    padding: 2.5rem 1.5rem 1.5rem 1.5rem !important;
+/*pre {*/
+/*padding: 2.5rem 1.5rem 1.5rem 1.5rem !important;*/
+/*margin: 1rem 0 !important;*/
+/*background: #272822;*/
+/*overflow: auto;*/
+/*border-radius: 0.35rem;*/
+/*tab-size: 4;*/
+/*}*/
+
+pre { /* padding: 1.5rem !important; */
+    padding: 1.5rem 1.5rem 1.5rem 3.3rem !important;
     margin: 1rem 0 !important;
     background: #272822;
     overflow: auto;
@@ -134,11 +143,19 @@ pre {
     box-shadow: 20px 0 #ffbd2e, 40px 0 #27c93f;
 }
 
+/*code {*/
+/*padding: 1px 5px;*/
+/*top: 13px !important;*/
+/*font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;*/
+/*font-size: 0.91rem;*/
+/*color: #e96900;*/
+/*background-color: #f8f8f8;*/
+/*border-radius: 2px;*/
+/*}*/
+
 code {
     padding: 1px 5px;
-    top: 13px !important;
-    font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
-    font-size: 0.91rem;
+    font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace; /* font-size: 0.91rem; */
     color: #e96900;
     background-color: #f8f8f8;
     border-radius: 2px;
@@ -266,7 +283,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    /*background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
+    background-image: linear-gradient(to right, #1c1c1c 0%, #0D0A0A 100%);
 }
 
 .text-color {
@@ -282,7 +300,8 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    /*background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
+    background-image: linear-gradient(to right, #1c1c1c 0%, #0D0A0A 100%);
     opacity: 0.8;
 }
 
@@ -415,8 +434,8 @@ header .side-nav .social-link {
     border: 1px solid #f44336;
     background-color: #f44336;
     box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42),
-            0 4px 23px 0 rgba(0, 0, 0, 0.12),
-            0 8px 10px -5px rgba(233, 30, 99, 0.2);
+    0 4px 23px 0 rgba(0, 0, 0, 0.12),
+    0 8px 10px -5px rgba(233, 30, 99, 0.2);
 }
 
 .cover-btns a i {
@@ -430,7 +449,7 @@ header .side-nav .social-link {
     -webkit-animation: scroll-down 1.5s infinite;
     -moz-animation: scroll-down 1.5s infinite;
     -o-animation: scroll-down 1.5s infinite;
-    -ms-animation: scroll-down1.5s infinite;
+    -ms-animation: scroll-down1 .5s infinite;
     animation: scroll-down 1.5s infinite;
 }
 
@@ -1047,8 +1066,8 @@ article .article-tags .chip {
 
 #artDetail .card {
     box-shadow: 0 10px 35px 2px rgba(0, 0, 0, .15),
-        0 5px 15px rgba(0, 0, 0, .07),
-        0 2px 5px -5px rgba(0, 0, 0, .1) !important;
+    0 5px 15px rgba(0, 0, 0, .07),
+    0 2px 5px -5px rgba(0, 0, 0, .1) !important;
 }
 
 #artDetail .tag-cate {
@@ -1246,7 +1265,7 @@ article .article-tags .chip {
 }
 
 #articleContent table {
-	width: 100%;
+    width: 100%;
     display: block;
     border-collapse: collapse;
     border-spacing: 0;
@@ -1270,14 +1289,14 @@ thead {
 #articleContent table th {
     background-color: #f2f2f2;
     min-width: 80px;
-	border: 1px solid #dfe2e5;
-	padding: 6px 6px;
+    border: 1px solid #dfe2e5;
+    padding: 6px 6px;
 }
 
 #articleContent table td {
     min-width: 80px;
-	border: 1px solid #dfe2e5;
-	padding: 6px 6px;
+    border: 1px solid #dfe2e5;
+    padding: 6px 6px;
 }
 
 #articleContent [type="checkbox"]:not(:checked),
